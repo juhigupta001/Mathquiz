@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hrsh.mathquiz.cheetActivity"
+    android:weightSum="1"
+    android:gravity="center"
+    android:background="#FF7"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/cheatanswertextView"
+        android:layout_width="wrap_content"
+        android:layout_height="102dp"
+        android:padding="24dp"
+        android:textSize="4mm"
+        android:text="@string/cheatwarningtext" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:paddingLeft="24dp"
+        tools:text="answer"
+        android:layout_weight="0.50" />
+
+    <Button
+        android:id="@+id/showcheatbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/showcheatbutton" />
+
+
+</LinearLayout>
